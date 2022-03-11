@@ -1,0 +1,122 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,400&family=Roboto&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+}
+#detail-parent {
+  color: aliceblue;
+  background: #191b2a;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  padding-top: 50px;
+  padding-bottom: 8%;
+}
+
+#detail-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#detail-nft-parent {
+  display: flex;
+  flex-direction: row;
+}
+
+#detail-nft-img {
+  background: #ffffff;
+
+  width: 400px;
+  height: 300px;
+  border-radius: 15px;
+}
+
+#detail-img {
+}
+#detail-nft-name-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  margin-left: 35px;
+}
+
+#nft-name-creator {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  opacity: 0.75;
+}
+
+#nft-name-name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 49px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+#nft-name-owner {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  opacity: 0.75;
+}
+
+#nft-name-send {
+  width: 191px;
+  height: 63px;
+  background: url(../assets/nav_grad.jpg);
+  border: 1px solid #000000;
+  box-sizing: border-box;
+  border-radius: 12px;
+}
+
+#detail-desc-body {
+  margin-right: 14%;
+}
+.detail-desc-desc {
+  margin-top: 15%;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 42px;
+  line-height: 49px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+#detail-desc {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  opacity: 0.75;
+}
+
+.detail-desc-content {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #ffffff;
+
+  opacity: 0.75;
+}

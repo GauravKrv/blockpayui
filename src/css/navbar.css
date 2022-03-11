@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,400&family=Roboto&display=swap");
+* {
+  font-family: "Lato", sans-serif;
+}
+#nav-parent {
+  height: 80px;
+  top: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  /*   background: url("../assets/UnicornGradients/UnicornGradients/UnicornVectorGradient_22.jpg");
+ */
+  background: url("../assets/nav_grad.jpg");
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+#nav {
+  position: sticky;
+}
+.brand-name {
+  margin-left: 5px;
+  margin-top: 3px;
+  font-weight: 700;
+}
+#logo {
+  height: 30px;
+  width: 30px;
+  border-radius: 2px;
+}
+
+#nav-left {
+  margin-top: 20px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+#brand {
+  color: rgb(27, 26, 26);
+}
+
+#nav-right {
+  margin-top: 4px;
+  margin-bottom: 15px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#nav-item {
+  padding: 10%;
+  color: rgb(27, 26, 26);
+}
+
+/* drop down */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown {
+  padding: 10%;
+  color: rgb(27, 26, 26);
+}

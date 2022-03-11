@@ -1,0 +1,12 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;1,400&family=Roboto&display=swap");
+* {
+  font-family: "Roboto", sans-serif;
+}
+#cimgdiv {
+  margin: 20px;
+}
+
+#card-parent {
+  margin-right: 20px;
+  margin-bottom: 200px;
+}

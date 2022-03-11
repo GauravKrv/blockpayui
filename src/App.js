@@ -1,24 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
-
+import "./App.css";
+import Footer from "./components/footer";
+import Navbar from "./components/navbar";
+import SendComponent from "./components/sendphone";
+import CreatNFTs from "./routes/createnft";
+import Explore from "./routes/explore";
+import MyNfts from "./routes/mynfts";
+import NFTDetail from "./routes/nftdetail";
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Navbar />
+      <SendComponent text="Wallet address" /> */}
+      {/* <SendComponent text="Phone number" /> */}
+      <MyNfts />
+      {/* <CreatNFTs /> */}
+      {/* <NFTDetail /> */}
+      {/* <Footer /> */}
+      {/* <Explore /> */}
+    </>
   );
 }
 
